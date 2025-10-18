@@ -1,5 +1,6 @@
 
-const GEMINI_API_KEY = "AIzaSyANNlmLFQ-_E_hoJyyMGlq7JIvPzwcFsTc";
+importScripts('config.js');
+
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${GEMINI_API_KEY}`;
 
 // ★★★ 修正点: 自動リトライ機能を追加 ★★★
